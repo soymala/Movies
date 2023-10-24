@@ -1,0 +1,429 @@
+html{
+    scroll-behavior: smooth;
+}
+/*index.html*/
+.body-1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/movies-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.text-box{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.text-box h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30%;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.text-box p{
+    font-family: cursive;
+    color: #fff;
+}
+.text-box button{
+    margin-top: 25px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.text-box a{
+    text-decoration: none;
+    color: black;
+}
+
+/*nav bar body-2*/
+.body-2{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 45%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(151, 24, 24);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: -10px;
+    transition: 0.5s;
+     
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    color: #fff;
+}
+
+/*Unlocked (2023) Korean Movie.html*/ 
+
+.banner2{  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/unlocked-Scene.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.content-2{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    color: rgb(204, 204, 204)
+    
+}
+.content-2 h1{
+    text-align: left;
+    font-size: 70px;
+}
+.content-2 p{
+    font-size: 20px;
+    margin-top: 0.15%;
+    color: white;
+}
+
+/*button-trailer-unlocked*/
+.content-2 a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black
+    
+    
+}
+.content-2 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+#Synopsis-1{
+    
+    height: 90%;
+    margin-top: 44%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+#Synopsis-1 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+#Synopsis-1 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10;
+    color: #fff;
+}
+#Synopsis-1 img{
+    width: 300px;
+    margin-left: 840px;
+
+}
+
+/*Kill Boksoon 2023.html*/
+.banner3{  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/kill-boksoon-movie-scene.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.content-3{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: rgb(204, 204, 204)
+}
+.content-3 h1{
+    
+    text-align: right;
+    font-size: 70px;
+}
+.content-3 p{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*Button-trailer-kill-bobsoon*/
+.content-3 a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black  
+}
+.content-3 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+#Synopsis-2{
+    
+    height: 90%;
+    margin-top: 44%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+#Synopsis-2 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+#Synopsis-2 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10;
+    color: #fff;
+}
+#Synopsis-2 img{
+    width: 1000px;
+    margin-left: 500px;
+
+}
+
+/*20th Century*/
+.banner4    {  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/20th\ century\ scene.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content-4{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: rgb(204, 204, 204)
+}
+.content-4 h1{
+    
+    text-align: right;
+    font-size: 70px;
+}
+.content-4 p{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*Button-trailer-20th century*/
+.content-4 a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black  
+}
+.content-4 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+#Synopsis-3{
+    
+    height: 90%;
+    margin-top: 44%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+#Synopsis-3 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+#Synopsis-3 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10;
+    color: #fff;
+}
+#Synopsis-3 img{
+    width: 400px;
+    margin-left: 800px;
+
+}
+
+/*Decibel 2022*/
+.banner5{  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/decibel-scene.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.content-5{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: rgb(204, 204, 204)
+}
+.content-5 h1{
+    
+    text-align: left;
+    font-size: 70px;
+}
+.content-5 p{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*Button-trailer-decibel*/
+.content-5 a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black  
+}
+.content-5 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+#Synopsis-4{
+    
+    height: 90%;
+    margin-top: 44%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+#Synopsis-4 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+#Synopsis-4 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10;
+    color: #fff;
+}
+#Synopsis-4 img{
+    width: 300px;
+    margin-left: 800px;
+
+}
+
+/*Bad Genius 2017*/
+.banner6{  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/bad-genius-scene.webp);
+    background-size: cover;
+    background-position: center;
+}
+.content-6{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: rgb(204, 204, 204)
+}
+.content-6 h1{
+    
+    text-align: left;
+    font-size: 70px;
+}
+.content-6 p{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*Button-trailer-bad genius*/
+.content-6 a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black  
+}
+.content-6 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: white;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+#Synopsis-5{
+    
+    height: 90%;
+    margin-top: 44%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+#Synopsis-5 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+#Synopsis-5 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10;
+    color: #fff;
+}
+#Synopsis-5 img{
+    width: 280px;
+    margin-left: 800px;
+
+}
